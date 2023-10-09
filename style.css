@@ -1,0 +1,112 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html, body{
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+}
+
+#main{
+	height: 100%;
+	width: 100%;
+	background-color: #c4948dde;
+	display: flex;
+}
+
+#part1{
+	height: 100%;
+	width: 26%;
+	/*background-color: red;*/
+}
+#part2{
+	height: 100%;
+	width: 67%;
+	/*background-color: blue;*/
+	background-image: url(profile.png);
+	background-size: cover;
+	background-position: center;
+}
+#overlay{
+	height: 100%;
+	width: 100%;
+	background-color: #0000005c;
+}
+#part3{
+	height: 100%;
+	width: 9%;
+}
+#text-div{
+	position: absolute;
+	width: 30%;
+	left: 7%;
+	top: 50%;
+	transform: translate(0,-50%);
+}
+#text-div h1{
+	font-size: 400%;
+	font-family: 'poppins', sans-serif;
+	font-weight: 800;
+	letter-spacing: 8px;
+	text-transform: uppercase;
+	line-height: 90%;
+	color: white;
+}
+#small-image-div{
+	height: 50%;
+	width: 25%;
+	/*background-color: red;*/
+	background-image: url(profile2.png);
+	background-size: cover;
+	background-position: center;
+	position: absolute;
+	top: 50%;
+	right: 5%;
+	transform: translate(0, -50%);
+}
+#virtical-text{
+	position: absolute;
+	transform: rotate(90deg);
+	right: -71%;
+	top: -2%;
+	transform-origin: 0% 0%;
+	/*width: 100%;*/
+	/*background-color: red;*/
+}
+#virtical-text h1{
+	font-size: 380%;
+	font-weight: 750;
+	text-transform: uppercase;
+	color: transparent;
+	letter-spacing: 15px;
+	font-family:'poppins', sans-serif;
+	-webkit-text-stroke-width: 2px;
+	-webkit-text-stroke-color: #fff;
+}
+#nav{
+	position: absolute;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 25%;
+	z-index: 9;
+	left: 8%;
+	top: 5%;
+	/*background-color: red;*/
+}
+#nav img{
+	height: 60px;
+}
+#nav h5{
+	font-size: 20px;
+	color: #fff;
+	font-family: 'poppins', sans-serif;
+
+
+.loading-text{
+  font-size: 50px;
+  color: green;
+  z-index: 999;
+}
